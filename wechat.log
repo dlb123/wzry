@@ -1,0 +1,12 @@
+[2019-10-19 16:44:05,420][13252][operation_db.py][line: 87][ERROR] ## 执行SQL发生异常 原因是：not all arguments converted during string formatting
+[2019-10-19 16:44:05,434][13252][operation_db.py][line: 88][ERROR] ## SQL为：insert into wzry_detail_link(name, url, count) values(%s, %s)
+[2019-10-19 16:54:17,058][13724][operation_db.py][line: 17][ERROR] ## 执行SQL发生异常原因是：(1146, "Table 'spider.wzry_detail_url' doesn't exist")
+[2019-10-19 16:54:17,059][13724][operation_db.py][line: 18][ERROR] ## SQL为：select name, url, count from wzry_detail_url where status=0 limit 1
+[2019-10-19 17:21:49,125][16668][operation_db.py][line: 87][ERROR] ## 执行SQL发生异常 原因是：(1146, "Table 'spider.wxry_skin_url' doesn't exist")
+[2019-10-19 17:21:49,125][16668][operation_db.py][line: 88][ERROR] ## SQL为：insert into wxry_skin_url(name, skinName, skinUrl) values(%s, %s, %s)
+[2019-10-19 17:21:51,813][16668][operation_db.py][line: 87][ERROR] ## 执行SQL发生异常 原因是：(1146, "Table 'spider.wxry_skin_url' doesn't exist")
+[2019-10-19 17:21:51,814][16668][operation_db.py][line: 88][ERROR] ## SQL为：insert into wxry_skin_url(name, skinName, skinUrl) values(%s, %s, %s)
+[2019-10-19 17:22:41,330][10876][operation_db.py][line: 87][ERROR] ## 执行SQL发生异常 原因是：(1364, "Field 'id' doesn't have a default value")
+[2019-10-19 17:22:41,330][10876][operation_db.py][line: 88][ERROR] ## SQL为：insert into wzry_skin_url(name, skinName, skinUrl) values(%s, %s, %s)
+[2019-10-19 17:22:44,105][10876][operation_db.py][line: 87][ERROR] ## 执行SQL发生异常 原因是：(1364, "Field 'id' doesn't have a default value")
+[2019-10-19 17:22:44,106][10876][operation_db.py][line: 88][ERROR] ## SQL为：insert into wzry_skin_url(name, skinName, skinUrl) values(%s, %s, %s)
